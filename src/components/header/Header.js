@@ -9,14 +9,15 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                 <Navbar.Brand>
-                    <NavLink to="/home">{'{'}Codev{'}'}</NavLink>    
+                    <NavLink to="/">{'{'}Codev{'}'}</NavLink>    
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <NavLink to="/home">Home</NavLink>
+                        <NavLink to="/">Home</NavLink>
                         <NavLink to="/course">Course</NavLink>
                         <NavLink to="/about">About Us</NavLink>
+                        <NavLink to="/about">Contact Us</NavLink>
                     </Nav>
                 </Navbar.Collapse>
                 </Container>
