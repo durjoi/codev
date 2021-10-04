@@ -1,10 +1,14 @@
 import React from 'react';
+import CourseSection from '../courseSection/CourseSection';
+import TopBanner from '../topBanner/TopBanner';
+import './Home.css';
 
 const Home = () => {
     return (
-        <div>
-            <h1>This is home</h1>
-        </div>
+        <main>
+            <TopBanner></TopBanner>
+            <CourseSection></CourseSection>
+        </main>
     );
 };
 

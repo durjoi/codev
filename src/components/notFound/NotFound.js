@@ -1,9 +1,9 @@
 import React from 'react';
-
+import img from '../../404-img.svg';
 const NotFound = () => {
     return (
-        <div>
-            <h1>404 Not Found</h1>
+        <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+            <img src={img} alt="" />
         </div>
     );
 };

@@ -1,0 +1,29 @@
+.top_banner {
+    height: 700px;
+    width: 100%;
+    background: url('../../banner.png');
+    background-repeat: no-repeat;
+    
+    background-position: calc(100vw - 80%);
+}
+
+.top_banner_content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 3px 4px 14px #fff;
+}
+
+.top_banner_content p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.top_banner_content button {
+    color: #000;
+    background: none;
+    border: 2px solid #000;
+    padding: 5px 20px;
+    font-size: 18px;
+}

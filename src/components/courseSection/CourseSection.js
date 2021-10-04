@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import CourseItem from '../courseItem/CourseItem';
+import './CourseSection.css';
 
+const CourseSection = () => {
 
-const Course = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
@@ -18,7 +19,7 @@ const Course = () => {
             <Container >
                 <Row>
                 {
-                    courses.map(item => <CourseItem key={item.id} course={item}></CourseItem>)
+                    courses.slice(0, 6).map(item => <CourseItem key={item.id} course={item}></CourseItem>)
                 }
                 </Row>
             </Container>
@@ -27,4 +28,4 @@ const Course = () => {
     );
 };
 
-export default Course;
+export default CourseSection;
